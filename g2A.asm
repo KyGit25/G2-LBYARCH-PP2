@@ -1,3 +1,8 @@
+section .data
+
+    var1 dd 255.0
+    var2 dd 0.5
+
 section .text
 bits 64
 
@@ -7,8 +12,8 @@ global imgCvtGrayFloatToInt
 imgCvtGrayFloatToInt:
 
     xor rax, rax          
-    movss xmm1, [rel const255]
-    movss xmm2, [rel const05]
+    movss xmm1, [rel var1]
+    movss xmm2, [rel var2]
     
 L1:
 
@@ -29,8 +34,4 @@ EXIT:
 
     xor eax, eax
     ret
-              
-section .data
-
-    const255: dd 255.0
-    const05: dd 0.5
+            
