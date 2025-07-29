@@ -1,0 +1,7 @@
+nasm -f win64 g2A.asm
+
+gcc -c g2C.c -o g2C.obj -m64
+
+gcc g2C.obj g2A.obj -o g2C.exe -m64
+
+g2C.exe
