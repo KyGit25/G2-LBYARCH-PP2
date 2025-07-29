@@ -4,9 +4,11 @@
 
 ### Project Specification:
 
-![alt text](image-1.png)
+<img width="996" height="919" alt="image" src="https://github.com/user-attachments/assets/b35ef063-99ba-49a1-8cda-0a0fba33873b" />
 
 ### Execution Time:
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3acc41a6-fa73-422d-a336-87506b7a2c5e" />
 
 For the three specified timing test sizes:
 - **100 pixels (10×10)**: Average execution time: 0.000000 seconds
@@ -19,11 +21,11 @@ As seen above, all test sizes show 0.000000 seconds execution time, indicating t
 
 ### Program Output:
 
-![alt text](image.png)
+<img width="1100" height="635" alt="image" src="https://github.com/user-attachments/assets/545fc0ea-c9bb-4a96-9f2a-329a415b64fe" />
 
 ### Correctness Check:
 
-Formula: `int result = (single float pixel input * 255.0 + 0.5)`
+Formula: int result = (single float pixel input * 255.0 + 0.5)
 
 - 0.25 × 255 + 0.5 = 64.25 + 0.5 = 64.75 → **64** 
 - 0.35 × 255 + 0.5 = 89.25 + 0.5 = 89.75 → **89**  
